@@ -147,10 +147,10 @@
       font-size: 16px;
       line-height: 163%;
     }
-    .intro__list {
+    .list {
       min-width: 288px;
     }
-    .intro__list-text {
+    .list__text {
       font-size: 12px;
       line-height: 18px;
     }
