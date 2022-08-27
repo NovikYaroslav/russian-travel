@@ -1,0 +1,14 @@
+.place {
+    display: grid;
+    grid-template-columns: min-content fit-content(483px);
+    grid-template-rows: min-content 1fr;
+    margin: 0;
+    margin-top: 80px;
+    grid-row-gap: 48px;
+    grid-column-gap: 40px;
+  }
+
+  .place:first-of-type {
+    margin-top: 0;
+  }
+

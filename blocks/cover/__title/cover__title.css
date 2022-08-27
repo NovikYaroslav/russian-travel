@@ -1,0 +1,18 @@
+.cover__title {
+    min-height: 152px;
+    width: 560px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+    z-index: 1;
+  }
+
+  .cover__title:hover ~ .cover__overlay {
+    opacity: 0.8;
+  }
