@@ -13,8 +13,8 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/__text/list__text.css);
-@import url(../blocks/intro/__list/__text/__marked/list__text_marked_spaned.css);
+@import url(../blocks/intro/__list-text/intro-list-text.css);
+@import url(../blocks/intro/__list-text/__marked/intro__list-text_marked_spaned.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places.css);
