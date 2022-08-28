@@ -5,3 +5,19 @@
     margin: 92px auto 24px auto;
   }
   
+  @media screen and (max-width: 768px) {
+    .footer {
+      max-width: calc(100% - 48px);
+      margin-top: 88px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-left: 16px;
+      margin-top: 64px;
+    }
+  }

@@ -11,3 +11,24 @@
     margin-top: 92px;
     text-decoration: none;
   }
+
+  @media screen and (max-width: 1024px) {
+    .cover {
+      max-width: 100%;
+      min-height: 640px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .cover {
+      max-width: 100%;
+      min-height: 480px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .cover {
+      max-width: 100%;
+      min-height: 200px;
+    }
+  }

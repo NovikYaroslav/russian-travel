@@ -9,3 +9,11 @@
     color: #ffffff;
     margin: 0;
   }
+
+  @media screen and (max-width: 320px) {
+    .intro__list {
+      min-width: 288px;
+      font-size: 12px;
+      line-height: 150%;
+    }
+  }

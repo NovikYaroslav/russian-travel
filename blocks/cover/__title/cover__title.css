@@ -16,3 +16,15 @@
   .cover__title:hover ~ .cover__overlay {
     opacity: 0.8;
   }
+
+  @media screen and (max-width: 320px) {
+    .cover__title {
+      /* max-width: 288px;  */
+      /* при данном значении некорректно отображается перенос*/
+      max-width: 255px;
+      min-height: 70px;
+      font-size: 32px;
+      line-height: 109%;
+      margin: 0;
+    }
+  }

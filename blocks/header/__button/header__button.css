@@ -11,6 +11,11 @@
     margin-top: 18px;
   }
 
-  .header__button:first-of-type {
-    text-decoration-line: underline;
+  @media screen and (max-width: 320px) {
+    .header__button {
+      font-size: 18px;
+      line-height: 20px;
+      margin-bottom: 8px;
+      margin-top: 14px;
+    }
   }
