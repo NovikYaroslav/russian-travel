@@ -24,7 +24,7 @@
       margin-top: 88px;
     }
   }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 475px) {
     .photo-grid {
       max-width: calc(100% - 32px);
       grid-template-columns: 1fr;
