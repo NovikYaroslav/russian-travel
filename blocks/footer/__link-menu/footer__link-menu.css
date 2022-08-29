@@ -8,7 +8,6 @@
 
   @media screen and (max-width: 320px) {
     .footer__link-menu {
-      display: flex;
       flex-direction: column;
       justify-content: start;
       gap: 32px;

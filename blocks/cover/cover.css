@@ -8,6 +8,7 @@
     background-image: url(./../../image/cover-trains.jpg);
     margin: 0 auto;
     background-size: cover;
+    background-position:center;
     margin-top: 92px;
     text-decoration: none;
   }
@@ -21,14 +22,15 @@
 
   @media screen and (max-width: 768px) {
     .cover {
-      max-width: 100%;
       min-height: 480px;
+      /* margin-top: 90px; */
+      /* Полагаю,что это не требуется и можно оставить изначальные 92px. Погрешность макета*/
     }
   }
 
   @media screen and (max-width: 320px) {
     .cover {
-      max-width: 100%;
       min-height: 200px;
+      margin-top: 66px;
     }
   }
