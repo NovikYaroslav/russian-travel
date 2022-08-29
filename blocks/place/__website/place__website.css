@@ -4,7 +4,7 @@
     align-self: flex-end;
   }
 
-  @media screen and (max-width: 475px) {
+  @media screen and (max-width: 690px) {
     .place__website {
       padding-left: 16px;
       padding-right: 16px;

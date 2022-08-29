@@ -13,14 +13,14 @@
     margin-bottom: 0;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 910px) {
     .place__paragraph {
       font-size: 16px;
       line-height: 26px;
     }
   }
 
-  @media screen and (max-width: 475px) {
+  @media screen and (max-width: 690px) {
     .place__paragraph {
       padding-left: 16px;
       padding-right: 16px;
