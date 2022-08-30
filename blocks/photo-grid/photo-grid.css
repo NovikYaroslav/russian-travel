@@ -20,7 +20,6 @@
     .photo-grid {
       max-width: calc(100% - 48px);
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(auto, 1fr);
       margin-top: 88px;
     }
   }
@@ -28,7 +27,6 @@
     .photo-grid {
       max-width: calc(100% - 32px);
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(auto, 1fr);
       margin-top: 64px;
       row-gap: 12px;
     }

@@ -1,7 +1,7 @@
 .intro {
     display: flex;
     flex-direction: column;
-    max-width: calc(100% - 442px);
+    max-width: calc(100% - 590px);
     margin-left: 148px;
     margin-top: 92px;
   }
@@ -9,7 +9,7 @@
   @media screen and (max-width: 1120px) {
     .intro {
       margin-left: 48px;
-      max-width: calc(100% - 286px);
+      max-width: calc(100% - 334px);
     }
   }
 

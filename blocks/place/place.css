@@ -27,9 +27,16 @@
 
   @media screen and (max-width: 690px) {
     .place {
-      grid-template-columns: min-content;
+      justify-items: center;
+      grid-template-columns: minmax(288px, 690px);
       grid-template-rows: min-content min-content min-content min-content;
       grid-row-gap: 32px;
-      margin-top: 50px;
+      margin: 50px auto 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .place {
+      justify-items: start;
     }
   }
